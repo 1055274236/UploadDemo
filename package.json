@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node ./server.ts",
+    "start": "ts-node ./server.ts",
     "watch-server": "nodemon -e ts,tsx --exec ts-node ./server.ts"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
     "koa-body": "^5.0.0",
     "koa-compose": "^4.1.0",
     "koa-router": "^12.0.0",
+    "koa2-cors": "^2.0.6",
     "mime-types": "^2.1.35",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.6"
@@ -25,6 +26,7 @@
     "@types/koa": "^2.13.5",
     "@types/koa-compose": "^3.2.5",
     "@types/koa-router": "^7.4.4",
+    "@types/koa2-cors": "^2.0.2",
     "@types/mime-types": "^2.1.1",
     "@types/node": "^18.7.16",
     "nodemon": "^2.0.19",
